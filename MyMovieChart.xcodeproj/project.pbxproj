@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF138787226D8E0E00F16D66 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF138786226D8E0E00F16D66 /* TheaterListController.swift */; };
+		CF13878A226DBAF800F16D66 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF138789226DBAF800F16D66 /* WebKit.framework */; };
+		CF1AF6A3226E297F001054A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1AF6A2226E297F001054A3 /* MapKit.framework */; };
+		CF1AF6A5226E29D7001054A3 /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AF6A4226E29D7001054A3 /* TheaterViewController.swift */; };
 		CF38015522696F6D005E1D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38015422696F6D005E1D21 /* AppDelegate.swift */; };
 		CF38015722696F6D005E1D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38015622696F6D005E1D21 /* ViewController.swift */; };
 		CF38015A22696F6D005E1D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF38015822696F6D005E1D21 /* Main.storyboard */; };
@@ -14,6 +18,16 @@
 		CF38015F22696F6E005E1D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF38015D22696F6E005E1D21 /* LaunchScreen.storyboard */; };
 		CF38016A22696F6E005E1D21 /* MyMovieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38016922696F6E005E1D21 /* MyMovieChartTests.swift */; };
 		CF38017522696F6E005E1D21 /* MyMovieChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38017422696F6E005E1D21 /* MyMovieChartUITests.swift */; };
+		CF38018322696FBC005E1D21 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38018222696FBC005E1D21 /* ListViewController.swift */; };
+		CF3801852269884B005E1D21 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3801842269884B005E1D21 /* MovieVO.swift */; };
+		CF38018722698E44005E1D21 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38018622698E44005E1D21 /* MovieCell.swift */; };
+		CF38018C22698F95005E1D21 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF38018922698F95005E1D21 /* secret.jpg */; };
+		CF38018D22698F95005E1D21 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF38018A22698F95005E1D21 /* darknight.jpg */; };
+		CF38018E22698F95005E1D21 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF38018B22698F95005E1D21 /* rain.jpg */; };
+		CF3801CE226C48B6005E1D21 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3801CD226C48B6005E1D21 /* DetailViewController.swift */; };
+		CF477667226D8A59000819D8 /* Trailer.png in Resources */ = {isa = PBXBuildFile; fileRef = CF477665226D8A59000819D8 /* Trailer.png */; };
+		CF477668226D8A59000819D8 /* Listbullets.png in Resources */ = {isa = PBXBuildFile; fileRef = CF477666226D8A59000819D8 /* Listbullets.png */; };
+		CF47766A226D8CFD000819D8 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF477669226D8CFD000819D8 /* TheaterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF138786226D8E0E00F16D66 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
+		CF138789226DBAF800F16D66 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CF1AF6A2226E297F001054A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CF1AF6A4226E29D7001054A3 /* TheaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterViewController.swift; sourceTree = "<group>"; };
 		CF38015122696F6D005E1D21 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF38015422696F6D005E1D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF38015622696F6D005E1D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,16 @@
 		CF38017022696F6E005E1D21 /* MyMovieChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMovieChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF38017422696F6E005E1D21 /* MyMovieChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieChartUITests.swift; sourceTree = "<group>"; };
 		CF38017622696F6E005E1D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF38018222696FBC005E1D21 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CF3801842269884B005E1D21 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
+		CF38018622698E44005E1D21 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		CF38018922698F95005E1D21 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
+		CF38018A22698F95005E1D21 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		CF38018B22698F95005E1D21 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		CF3801CD226C48B6005E1D21 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF477665226D8A59000819D8 /* Trailer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trailer.png; sourceTree = "<group>"; };
+		CF477666226D8A59000819D8 /* Listbullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Listbullets.png; sourceTree = "<group>"; };
+		CF477669226D8CFD000819D8 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1AF6A3226E297F001054A3 /* MapKit.framework in Frameworks */,
+				CF13878A226DBAF800F16D66 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF138788226DBAF800F16D66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1AF6A2226E297F001054A3 /* MapKit.framework */,
+				CF138789226DBAF800F16D66 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF38014822696F6D005E1D21 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,7 @@
 				CF38016822696F6E005E1D21 /* MyMovieChartTests */,
 				CF38017322696F6E005E1D21 /* MyMovieChartUITests */,
 				CF38015222696F6D005E1D21 /* Products */,
+				CF138788226DBAF800F16D66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +137,17 @@
 		CF38015322696F6D005E1D21 /* MyMovieChart */ = {
 			isa = PBXGroup;
 			children = (
+				CF38018822698F61005E1D21 /* Resources */,
 				CF38015422696F6D005E1D21 /* AppDelegate.swift */,
 				CF38015622696F6D005E1D21 /* ViewController.swift */,
 				CF38015822696F6D005E1D21 /* Main.storyboard */,
+				CF1AF6A4226E29D7001054A3 /* TheaterViewController.swift */,
+				CF138786226D8E0E00F16D66 /* TheaterListController.swift */,
+				CF477669226D8CFD000819D8 /* TheaterCell.swift */,
+				CF3801CD226C48B6005E1D21 /* DetailViewController.swift */,
+				CF38018622698E44005E1D21 /* MovieCell.swift */,
+				CF3801842269884B005E1D21 /* MovieVO.swift */,
+				CF38018222696FBC005E1D21 /* ListViewController.swift */,
 				CF38015B22696F6E005E1D21 /* Assets.xcassets */,
 				CF38015D22696F6E005E1D21 /* LaunchScreen.storyboard */,
 				CF38016022696F6E005E1D21 /* Info.plist */,
@@ -123,6 +171,18 @@
 				CF38017622696F6E005E1D21 /* Info.plist */,
 			);
 			path = MyMovieChartUITests;
+			sourceTree = "<group>";
+		};
+		CF38018822698F61005E1D21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF38018922698F95005E1D21 /* secret.jpg */,
+				CF38018B22698F95005E1D21 /* rain.jpg */,
+				CF477666226D8A59000819D8 /* Listbullets.png */,
+				CF477665226D8A59000819D8 /* Trailer.png */,
+				CF38018A22698F95005E1D21 /* darknight.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +253,11 @@
 				TargetAttributes = {
 					CF38015022696F6D005E1D21 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					CF38016422696F6E005E1D21 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -230,8 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF38015F22696F6E005E1D21 /* LaunchScreen.storyboard in Resources */,
+				CF477668226D8A59000819D8 /* Listbullets.png in Resources */,
+				CF38018E22698F95005E1D21 /* rain.jpg in Resources */,
 				CF38015C22696F6E005E1D21 /* Assets.xcassets in Resources */,
 				CF38015A22696F6D005E1D21 /* Main.storyboard in Resources */,
+				CF38018C22698F95005E1D21 /* secret.jpg in Resources */,
+				CF477667226D8A59000819D8 /* Trailer.png in Resources */,
+				CF38018D22698F95005E1D21 /* darknight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +327,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF38015722696F6D005E1D21 /* ViewController.swift in Sources */,
+				CF47766A226D8CFD000819D8 /* TheaterCell.swift in Sources */,
+				CF3801852269884B005E1D21 /* MovieVO.swift in Sources */,
+				CF138787226D8E0E00F16D66 /* TheaterListController.swift in Sources */,
 				CF38015522696F6D005E1D21 /* AppDelegate.swift in Sources */,
+				CF3801CE226C48B6005E1D21 /* DetailViewController.swift in Sources */,
+				CF1AF6A5226E29D7001054A3 /* TheaterViewController.swift in Sources */,
+				CF38018722698E44005E1D21 /* MovieCell.swift in Sources */,
+				CF38018322696FBC005E1D21 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.jaeunghyun.MyMovieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -457,6 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.jaeunghyun.MyMovieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
